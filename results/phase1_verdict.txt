@@ -1,6 +1,6 @@
 VJ EDGECOMBE — PHASE 1 VERDICT
 ================================
-Cohort: 243 rookie guards, heights 6'1"–6'5", ≥500 min, 2006–2026
+Cohort: 244 rookie guards, heights 6'1"–6'5", ≥500 min, 2006–2026
 Model: OLS + RF robustness check on era-adjusted within-season z-scores
 
 HEADLINE RESULTS:
