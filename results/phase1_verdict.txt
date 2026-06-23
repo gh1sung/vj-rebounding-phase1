@@ -1,0 +1,32 @@
+VJ EDGECOMBE — PHASE 1 VERDICT
+================================
+Cohort: 243 rookie guards, heights 6'1"–6'5", ≥500 min, 2006–2026
+Model: OLS + RF robustness check on era-adjusted within-season z-scores
+
+HEADLINE RESULTS:
+  TRB%: actual +0.58 σ | predicted +0.11 σ | residual +0.47 σ → 84th pctile  (RF: 83rd)
+  ORB%: actual +0.87 σ | predicted +0.17 σ | residual +0.70 σ → 90th pctile  (RF: 93rd)
+  DRB%: actual +0.32 σ | predicted +0.10 σ | residual +0.22 σ → 70th pctile  (RF: 61st)
+
+MODEL FIT:
+  TRB% R² = 0.042  |  ORB% R² = 0.043  |  DRB% R² = 0.019
+  Low R² is expected and correct — the unexplained variance is precisely
+  what we're hunting.  VJ's residual lives in that unexplained part.
+
+INTERPRETATION:
+  A large positive residual (>75th pctile, consistent across OLS & RF)
+  = the "knack for the ball" is a real, quantifiable signal above what
+  height, minutes, frontcourt teammates, and position predict.
+  ORB% > DRB% residual → edge concentrates on the offensive glass.
+  Consistent with scouting descriptions of anticipation and positioning.
+
+KNOWN CAVEATS:
+  - Height only in primary model (wingspan spotty; Model B robustness check included).
+  - frontcourt_trb is season-total proxy, not true on/off lineup control.
+  - Era z-score handles but doesn't fully eliminate 3-pt era drift.
+  - Box-score rates can't distinguish contested from uncontested boards.
+  These gaps are exactly what Phase 2 (tracking) and Phase 3 (CV) fill.
+
+WHAT THIS MEANS FOR NEXT STEPS:
+  IF large positive residual → box score confirms the knack; Phase 2 explains *why*.
+  IF flat/negative residual → timing-based edge likely (leverage-weighted analysis needed).

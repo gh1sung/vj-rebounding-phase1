@@ -1,0 +1,40 @@
+VJ EDGECOMBE - MODEL B WINGSPAN ROBUSTNESS
+=================================================
+Corrected Phase 1 cohort: 244 players including VJ
+Usable wingspan coverage: 160/244
+Complete-case model sample: 160
+Both models below use the same complete-case sample.
+
+ORB% HEADLINE
+  Model A residual: +0.642 z (87th percentile)
+  Model B residual: +0.700 z (91st percentile)
+  Change after wingspan: +0.058 z (grew by 9.1% of Model A residual magnitude)
+  Wingspan coefficient: +0.056 z per inch (HC3 p=0.012)
+  Exact-year-only sensitivity: +0.722 z (91st percentile, n=155)
+  VJ wingspan-minus-height percentile in Model B sample: 45th
+
+ALL TARGETS
+  TRB%: Model A +0.376 z (80th) -> Model B +0.418 z (82nd)
+  ORB%: Model A +0.642 z (87th) -> Model B +0.700 z (91st)
+  DRB%: Model A +0.158 z (66th) -> Model B +0.185 z (68th)
+
+MODEL FIT
+  ORB% Model A R-squared: 0.043
+  ORB% Model B R-squared: 0.077
+
+CONCLUSION
+  The ORB% residual is substantively stable after controlling for wingspan. Arm length does not explain the core above-expectation signal.
+  VJ's 3.5-inch wingspan advantage over his listed height is near the
+  middle of this combine-measured guard sample, so adding wingspan lowers
+  his expected ORB% slightly rather than explaining away his production.
+
+CAUTION
+  Combine attendance is incomplete, so Model B uses a smaller, selected
+  sample. The same-sample comparison isolates the added wingspan control,
+  but the result should still be described as a robustness check rather
+  than a definitive causal decomposition of physical tools versus instinct.
+
+PHASE 2
+  Model B tests whether arm length explains the residual. It still cannot
+  identify the mechanism. Rebound chances, conversion rate, contested-board
+  share, box-outs, and rebound distance are the next step for explaining why.
